@@ -1,4 +1,4 @@
-package chapter5;
+package chapter5and6;
 
 /**
  * Created with IntelliJ IDEA.
