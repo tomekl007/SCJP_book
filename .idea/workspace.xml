@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8ab369e-af4d-4455-89ab-ce2716f45726" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/chapter5/Dates2.java" afterPath="$PROJECT_DIR$/src/chapter5and6/Dates2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/chapter5/NewConsole.java" afterPath="$PROJECT_DIR$/src/chapter5and6/NewConsole.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/chapter5/ReadingFromDir.java" afterPath="$PROJECT_DIR$/src/chapter5and6/ReadingFromDir.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/chapter5/SerializeCat.java" afterPath="$PROJECT_DIR$/src/chapter5and6/SerializeCat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/chapter5/SuperNotSerial.java" afterPath="$PROJECT_DIR$/src/chapter5and6/SuperNotSerial.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/chapter5/Writer1.java" afterPath="$PROJECT_DIR$/src/chapter5and6/Writer1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testSer.ser" afterPath="$PROJECT_DIR$/testSer.ser" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter7/ArraysVsColl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter7/Ferry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter5and6/MatcherPlaying.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter7/PQ.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter7/TreeMapEx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SCJP_course.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,7 +20,7 @@
     <file path="$PROJECT_DIR$/../samlefaktura2/accountBalancerAdmin/src/main/webapp/WEB-INF/work/_jsp/_WEB_22dINF/_tiles/_dailyreport/_dailyReport__jsp.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1385024625262" ignored="false" />
     <file path="$PROJECT_DIR$/../samlePRod/prodsetting-26/pom.xml" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1385026713699" ignored="false" />
     <file path="/fragment.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1389982579491" ignored="false" />
-    <file path="/Dummy.txt" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1389981061081" ignored="false" />
+    <file path="/Dummy.txt" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1390071388449" ignored="false" />
     <file path="$PROJECT_DIR$/../samlePRod/prodsetting-26/accountBalancerAdmin/src/main/conf/resin.xml" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1385027343066" ignored="false" />
     <file path="$PROJECT_DIR$/../samlePRod/prodsetting-26/accountBalancerCore/pom.xml" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1385027449119" ignored="false" />
     <file path="$PROJECT_DIR$/../samlePRod/prodsetting-26/accountBalancerCore/src/test/groovy/no/aftenposten/accountbalancer/core/biz/excel/BalancingReportManagerTest.groovy" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1385392301936" ignored="false" />
@@ -78,6 +78,11 @@
     <file path="/ScanNext.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1389981367041" ignored="false" />
     <file path="/ReadingFor.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1389981621931" ignored="false" />
     <file path="/Talker.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1389982941032" ignored="false" />
+    <file path="/MatcherPlaying.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1389990207075" ignored="false" />
+    <file path="/Ferry.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1389996792879" ignored="false" />
+    <file path="/TreeMapEx.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1389997442736" ignored="false" />
+    <file path="/PQ.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1389997946059" ignored="false" />
+    <file path="/ArraysVsColl.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1390073064067" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +164,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/chapter5and6/Dates2.java" line="77" class="chapter5.Directories" package="chapter5">
+      <breakpoint url="file://$PROJECT_DIR$/src/chapter5and6/Dates2.java" line="77" class="chapter5and6.Directories" package="chapter5and6">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -200,93 +205,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SerializeCat.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter5and6/SerializeCat.java">
+      <file leaf-file-name="MatcherPlaying.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter5and6/MatcherPlaying.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="42" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0">
+            <state line="97" column="8" selection-start="3013" selection-end="3013" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Writer1.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter5and6/Writer1.java">
+      <file leaf-file-name="Vector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/Vector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="17" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0">
+            <state line="78" column="13" selection-start="2930" selection-end="2930" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadingFor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter4/ReadingFor.java">
+      <file leaf-file-name="Ferry.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter7/Ferry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="80" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+            <state line="34" column="107" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Talker.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter4/Talker.java">
+      <file leaf-file-name="TreeMapEx.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter7/TreeMapEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="28" selection-start="1931" selection-end="1931" vertical-scroll-proportion="0.63106793">
+            <state line="18" column="8" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PQ.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter7/PQ.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="39" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArraysVsColl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter7/ArraysVsColl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="285" column="24" selection-start="9420" selection-end="9420" vertical-scroll-proportion="0.6354167">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1652#1660#0" expanded="true" />
+                <element signature="e#2964#2972#0" expanded="true" />
+                <element signature="e#5102#5117#0" expanded="true" />
+                <element signature="e#6701#6709#0" expanded="true" />
+                <element signature="e#7277#7285#0" expanded="true" />
+                <element signature="e#7340#7348#0" expanded="true" />
+                <element signature="e#7811#7827#0" expanded="true" />
+                <element signature="e#8537#8553#0" expanded="true" />
+                <element signature="e#8813#8822#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Matcher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/regex/Matcher.java">
+      <file leaf-file-name="PriorityQueue.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="443" column="18" selection-start="15169" selection-end="15169" vertical-scroll-proportion="0.0">
+            <state line="358" column="19" selection-start="13173" selection-end="13173" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberFormat.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/text/NumberFormat.java">
+      <file leaf-file-name="NavigableMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/NavigableMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="634" column="23" selection-start="24645" selection-end="24645" vertical-scroll-proportion="0.0">
+            <state line="330" column="22" selection-start="13689" selection-end="13689" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DecimalFormat.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/text/DecimalFormat.java">
+      <file leaf-file-name="TreeMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2714" column="76" selection-start="117442" selection-end="117442" vertical-scroll-proportion="0.0">
+            <state line="745" column="13" selection-start="26107" selection-end="26107" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Scanner.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
+      <file leaf-file-name="TreeSet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/TreeSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2048" column="19" selection-start="77713" selection-end="77713" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2160" column="18" selection-start="85241" selection-end="85241" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/io/FileReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="11" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.0">
+            <state line="322" column="27" selection-start="12531" selection-end="12531" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -310,10 +323,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/chapter4/IncstnceOfExample.java" />
-        <option value="$PROJECT_DIR$/src/chapter4/NestedCach.java" />
-        <option value="$PROJECT_DIR$/src/chapter4/Test.java" />
         <option value="$PROJECT_DIR$/src/chapter5/Writer1.java" />
         <option value="$PROJECT_DIR$/src/chapter5/ReadingFromDir.java" />
         <option value="$PROJECT_DIR$/existingDir/existingDirFile.txt" />
@@ -325,6 +334,11 @@
         <option value="$PROJECT_DIR$/src/chapter4/ScanNext.java" />
         <option value="$PROJECT_DIR$/src/chapter4/ReadingFor.java" />
         <option value="$PROJECT_DIR$/src/chapter4/Talker.java" />
+        <option value="$PROJECT_DIR$/src/chapter5and6/MatcherPlaying.java" />
+        <option value="$PROJECT_DIR$/src/chapter7/Ferry.java" />
+        <option value="$PROJECT_DIR$/src/chapter7/TreeMapEx.java" />
+        <option value="$PROJECT_DIR$/src/chapter7/PQ.java" />
+        <option value="$PROJECT_DIR$/src/chapter7/ArraysVsColl.java" />
       </list>
     </option>
   </component>
@@ -345,7 +359,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -360,7 +374,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -391,6 +404,46 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCJP_course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCJP_course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCJP_course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCJP_course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArraysVsColl.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -470,49 +523,32 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Looking">
-    <configuration default="false" name="Directories" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5and6.Directories" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SCJP_course" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Talker" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chapter4.Talker" />
+  <component name="RunManager" selected="Application.COmparatorEx">
+    <configuration default="false" name="PQE" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.PQE" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -527,8 +563,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Slice" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chapter4.Slice" />
+    <configuration default="false" name="TSE" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.TSE" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -543,8 +579,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Archive" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chapter4.Archive" />
+    <configuration default="false" name="CellingFloor" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.CellingFloor" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -559,8 +595,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Looking" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chapter4.Looking" />
+    <configuration default="false" name="FirstGrade" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.FirstGrade" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -571,13 +607,23 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="SCJP_course" />
       <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="COmparatorEx" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.COmparatorEx" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SCJP_course" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -593,6 +639,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -620,19 +679,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -670,19 +716,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Directories" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Talker" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Slice" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Archive" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Looking" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PQE" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TSE" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CellingFloor" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FirstGrade" />
+      <item index="4" class="java.lang.String" itemvalue="Application.COmparatorEx" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Looking" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Archive" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Slice" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Talker" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Directories" />
+        <item index="0" class="java.lang.String" itemvalue="Application.COmparatorEx" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FirstGrade" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CellingFloor" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TSE" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PQE" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -723,28 +769,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="22" width="1430" height="809" extended-state="0" />
+    <frame x="3" y="22" width="1430" height="809" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3280116" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39767778" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33053222" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32656023" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21098267" sideWeight="0.67198837" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21044993" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21098267" sideWeight="0.78955007" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21044993" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280116" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -814,122 +860,206 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dir2/file2.txt">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="143" column="17" selection-start="5059" selection-end="5059" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="38" selection-start="6241" selection-end="6241" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="25" selection-start="2936" selection-end="2936" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="22" selection-start="2158" selection-end="2158" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/RandomAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="17" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="36" selection-start="4202" selection-end="4202" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dir1/file1.txt">
+    <entry file="file://$PROJECT_DIR$/src/chapter5and6/MatcherPlaying.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="97" column="8" selection-start="3013" selection-end="3013" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5and6/SuperNotSerial.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="6" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.0">
+        <state line="78" column="13" selection-start="2930" selection-end="2930" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter7/Ferry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="15" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0">
+        <state line="34" column="107" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/ScanNext.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/NavigableMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="12" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
+        <state line="330" column="22" selection-start="13689" selection-end="13689" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5and6/Dates2.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter7/TreeMapEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="29" selection-start="2537" selection-end="2537" vertical-scroll-proportion="0.0">
+        <state line="18" column="8" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter7/PQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="39" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="358" column="19" selection-start="13173" selection-end="13173" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="322" column="27" selection-start="12531" selection-end="12531" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="745" column="13" selection-start="26107" selection-end="26107" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter7/ArraysVsColl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="285" column="24" selection-start="9420" selection-end="9420" vertical-scroll-proportion="0.6354167">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1652#1660#0" expanded="true" />
+            <element signature="e#2964#2972#0" expanded="true" />
+            <element signature="e#5102#5117#0" expanded="true" />
+            <element signature="e#6701#6709#0" expanded="true" />
+            <element signature="e#7277#7285#0" expanded="true" />
+            <element signature="e#7340#7348#0" expanded="true" />
+            <element signature="e#7811#7827#0" expanded="true" />
+            <element signature="e#8537#8553#0" expanded="true" />
+            <element signature="e#8813#8822#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5and6/SerializeCat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="42" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5and6/Writer1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="17" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/io/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="11" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/ReadingFor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="80" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/text/DecimalFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2714" column="76" selection-start="117442" selection-end="117442" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/text/NumberFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="634" column="23" selection-start="24645" selection-end="24645" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/regex/Matcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="443" column="18" selection-start="15169" selection-end="15169" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2160" column="18" selection-start="85241" selection-end="85241" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2048" column="19" selection-start="77713" selection-end="77713" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/Talker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="28" selection-start="1931" selection-end="1931" vertical-scroll-proportion="0.63106793">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>groovy-2.1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SCJP_course</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
