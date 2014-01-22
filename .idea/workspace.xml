@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8ab369e-af4d-4455-89ab-ce2716f45726" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter10/pckb/Fiz.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter10/pcka/Foo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter2/Game.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter2/PolimDontApplyToStaticMeth.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter2/PolimorphismIsForInstaceMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter10/PropertiesEx.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter10/_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter2/Animal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter1/ArraysEx.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter1/Enums.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter1/Enums2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SCJP_course.iws" />
@@ -21,7 +18,7 @@
     <file path="$PROJECT_DIR$/../samlefaktura2/accountBalancerAdmin/src/main/webapp/WEB-INF/work/_jsp/_WEB_22dINF/_tiles/_dailyreport/_dailyReport__jsp.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1385024625262" ignored="false" />
     <file path="$PROJECT_DIR$/../samlePRod/prodsetting-26/pom.xml" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1385026713699" ignored="false" />
     <file path="/fragment.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1390303802841" ignored="false" />
-    <file path="/Dummy.txt" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1390249559866" ignored="false" />
+    <file path="/Dummy.txt" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1390380597628" ignored="false" />
     <file path="$PROJECT_DIR$/../samlePRod/prodsetting-26/accountBalancerAdmin/src/main/conf/resin.xml" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1385027343066" ignored="false" />
     <file path="$PROJECT_DIR$/../samlePRod/prodsetting-26/accountBalancerCore/pom.xml" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1385027449119" ignored="false" />
     <file path="$PROJECT_DIR$/../samlePRod/prodsetting-26/accountBalancerCore/src/test/groovy/no/aftenposten/accountbalancer/core/biz/excel/BalancingReportManagerTest.groovy" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1385392301936" ignored="false" />
@@ -128,6 +125,12 @@
     <file path="/Foo.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1390304144051" ignored="false" />
     <file path="/Fiz.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1390304169367" ignored="false" />
     <file path="/PolimDontApplyToStaticMeth.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1390327184139" ignored="false" />
+    <file path="/ArraysEx.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1390332195832" ignored="false" />
+    <file path="/Enums.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1390333425622" ignored="false" />
+    <file path="/Enums2.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1390333847445" ignored="false" />
+    <file path="/Animal.java" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1390340732357" ignored="false" />
+    <file path="$PROJECT_DIR$/../configurationservice/project/build.scala" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1390380627313" ignored="false" />
+    <file path="$PROJECT_DIR$/../configurationservice/project/plugins.sbt" changelist="a8ab369e-af4d-4455-89ab-ce2716f45726" time="1390380627313" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,26 +253,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SelfTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter9/SelfTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="8" selection-start="2251" selection-end="2251" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertiesEx.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter10/PropertiesEx.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter10/_.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -315,28 +298,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter2/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="351" selection-end="351" vertical-scroll-proportion="0.49586776">
+            <state line="16" column="22" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="System.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <file leaf-file-name="ArraysEx.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter1/ArraysEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="36" selection-start="3181" selection-end="3181" vertical-scroll-proportion="0.0">
+            <state line="12" column="21" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Properties.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/Properties.java">
+      <file leaf-file-name="Enums.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter1/Enums.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1025" column="36" selection-start="41402" selection-end="41405" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Enums2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter1/Enums2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="8" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animal.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter2/Animal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="41" selection-start="455" selection-end="455" vertical-scroll-proportion="0.5769231">
               <folding />
             </state>
           </provider>
@@ -360,10 +361,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter7/ArraysVsColl.java" />
-        <option value="$PROJECT_DIR$/src/chapter8/MyOuter.java" />
-        <option value="$PROJECT_DIR$/src/chapter8/Anonymoud.java" />
-        <option value="$PROJECT_DIR$/src/chapter8/Anonymous.java" />
         <option value="$PROJECT_DIR$/src/chapter8/StaticNest.java" />
         <option value="$PROJECT_DIR$/src/chapter8/SelfTest.java" />
         <option value="$PROJECT_DIR$/src/chapter9/WaitNotE.java" />
@@ -376,11 +373,16 @@
         <option value="$PROJECT_DIR$/src/chapter2/PolimDontApplyToStaticMeth.java" />
         <option value="$PROJECT_DIR$/src/chapter2/PolimorphismIsForInstaceMethods.java" />
         <option value="$PROJECT_DIR$/src/chapter2/Game.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/ArraysEx.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/Enums.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/Enums2.java" />
+        <option value="$PROJECT_DIR$/src/chapter2/Animal.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="1440" />
+    <option name="y" value="-300" />
     <option name="width" value="1440" />
     <option name="height" value="809" />
   </component>
@@ -616,6 +618,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCJP_course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCJP_course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="mydir" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -689,55 +709,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.ZooKeeper">
-    <configuration default="false" name="InSync" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chapter9.InSync" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SCJP_course" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestProps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chapter10.TestProps" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SCJP_course" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="_" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chapter10._" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="- A" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SCJP_course" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Dog2">
     <configuration default="false" name="Tenor" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="chapter2.Tenor" />
       <option name="VM_PARAMETERS" />
@@ -768,6 +740,58 @@
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Coffee" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter1.Coffee" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SCJP_course" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Enums2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter1.Enums2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SCJP_course" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Dog2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter2.Dog2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SCJP_course" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -859,19 +883,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.InSync" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestProps" />
-      <item index="2" class="java.lang.String" itemvalue="Application._" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Tenor" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ZooKeeper" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Tenor" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ZooKeeper" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Coffee" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Enums2" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Dog2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ZooKeeper" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Tenor" />
-        <item index="2" class="java.lang.String" itemvalue="Application._" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestProps" />
-        <item index="4" class="java.lang.String" itemvalue="Application.InSync" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Dog2" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Enums2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Coffee" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ZooKeeper" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Tenor" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -912,9 +936,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="809" extended-state="6" />
+    <frame x="1440" y="-300" width="1440" height="809" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="609" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -929,8 +954,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20946915" sideWeight="0.77648765" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22351234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20946915" sideWeight="0.6023222" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22351234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280116" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1003,34 +1028,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter7/ArraysVsColl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="24" selection-start="9420" selection-end="9420" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter8/Anonymous.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="52" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter8/StaticNest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter8/MyOuter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="57" selection-start="746" selection-end="753" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter8/SelfTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="23" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0">
@@ -1114,7 +1111,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="351" selection-end="351" vertical-scroll-proportion="0.49586776">
+        <state line="16" column="22" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/ArraysEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="21" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/Enums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/Enums2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="8" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="41" selection-start="455" selection-end="455" vertical-scroll-proportion="0.5769231">
           <folding />
         </state>
       </provider>
